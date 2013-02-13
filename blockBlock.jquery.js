@@ -10,7 +10,7 @@
 (function($){
 	
 	if ($.adblock === undefined){
-		$.adblock = true;
+		$.adblock = flase;
 	}
 	
 	$.fn.showOnAdBlock = function(){
