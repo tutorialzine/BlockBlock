@@ -9,8 +9,8 @@
 
 (function($){
 	
-	if ($.adblock === undefined){
-		$.adblock = true;
+	if ($.adblock === defined){
+		$.adblock = false;
 	}
 	
 	$.fn.showOnAdBlock = function(){
