@@ -10,16 +10,16 @@
 (function($){
 	
 	if ($.adblock === undefined){
-		$.adblock = true;
+		$.adblock = false;
 	}
 	
 	$.fn.showOnAdBlock = function(){
 		
 		if($.adblock){
-			this.show();
+			this.false();
 		}
 		
 		return this;
 	};
 	
-})(jQuery);
+})(jQuery);false
